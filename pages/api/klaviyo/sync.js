@@ -1,5 +1,5 @@
 // pages/api/klaviyo/sync.js
-import connectDB from '../../../lib/db';
+import connectDB from '../../config/db';
 import Lead from '../../../models/Lead';
 import klaviyoService from '../../../services/klaviyoService';
 
